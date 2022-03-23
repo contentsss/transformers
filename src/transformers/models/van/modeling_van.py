@@ -53,6 +53,7 @@ VAN_PRETRAINED_MODEL_ARCHIVE_LIST = [
     # See all VAN models at https://huggingface.co/models?filter=van
 ]
 
+
 # Stochastic depth implementation
 # Taken from https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/layers/drop.py
 def drop_path(x, drop_prob: float = 0.0, training: bool = False):
